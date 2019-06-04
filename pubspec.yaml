@@ -14,7 +14,7 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -22,12 +22,25 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
-  cloud_firestore: ^0.9.7+2
-
+  cupertino_icons: "0.1.2"
+  cloud_firestore: "0.11.0+1"
+  flutter_bloc: "0.13.0"
+  equatable: "0.2.3"
+  firebase_auth: "0.11.1"
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  image: "2.0.7"
+  flutter_launcher_icons: "0.7.0"
+  
+flutter_icons:
+  image_path: "assets/store.jpg"
+  android: "store_launcher" # can specify file name here e.g. "ic_launcher"
+  ios: "store_launcher" # can specify file name here e.g. "My-Launcher-Icon"
+  adaptive_icon_foreground: "assets/store.jpg"
+  adaptive_icon_background: "#2196F3"
 
 
 # For information on the generic Dart part of this file, see the
